@@ -1,0 +1,72 @@
+﻿@model syntaxfattie.Models.SyntaxUser
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - syntaxfattie</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/Images" rel="stylesheet" />
+</head>
+<body>
+    <header class="mw-100">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 navheight">
+
+            <div class="container">
+                <div class="card-title">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/Images/syntaxpatty.png" class="imgicon" /></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse w-50">
+                </div>
+                @if (@Model.IsUserLogin)
+                {
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse float-right">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark text-black-50" asp-area="" asp-controller="Home" asp-action="Menu">Syntax Patty Menu 2022</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark text-black-50" asp-area="" asp-controller="Home" asp-action="Location">Store Location</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark text-black-50" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                            </li>
+                            <li class="nav-item float-left">
+                                <a class="nav-link text-dark text-black-50" asp-area="" asp-controller="Inventory" asp-action="MainInventory">Inventory</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+                else
+                {
+                    <div>
+                        <h1 class="text-black-50">Syntax Patty</h1>
+                    </div>
+                }
+            </div>
+
+        </nav>
+    </header>
+    <div id="divBody" class="container">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - syntaxpatty - <a asp-area="" asp-controller="Home" asp-action="Location">Location</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

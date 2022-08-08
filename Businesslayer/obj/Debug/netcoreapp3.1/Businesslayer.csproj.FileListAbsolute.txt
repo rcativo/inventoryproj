@@ -1,0 +1,9 @@
+E:\workarea\syntaxfattie\syntaxfattie\Businesslayer\bin\Debug\netcoreapp3.1\Businesslayer.deps.json
+E:\workarea\syntaxfattie\syntaxfattie\Businesslayer\bin\Debug\netcoreapp3.1\Businesslayer.dll
+E:\workarea\syntaxfattie\syntaxfattie\Businesslayer\bin\Debug\netcoreapp3.1\Businesslayer.pdb
+E:\workarea\syntaxfattie\syntaxfattie\Businesslayer\obj\Debug\netcoreapp3.1\Businesslayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\workarea\syntaxfattie\syntaxfattie\Businesslayer\obj\Debug\netcoreapp3.1\Businesslayer.AssemblyInfoInputs.cache
+E:\workarea\syntaxfattie\syntaxfattie\Businesslayer\obj\Debug\netcoreapp3.1\Businesslayer.AssemblyInfo.cs
+E:\workarea\syntaxfattie\syntaxfattie\Businesslayer\obj\Debug\netcoreapp3.1\Businesslayer.csproj.CoreCompileInputs.cache
+E:\workarea\syntaxfattie\syntaxfattie\Businesslayer\obj\Debug\netcoreapp3.1\Businesslayer.dll
+E:\workarea\syntaxfattie\syntaxfattie\Businesslayer\obj\Debug\netcoreapp3.1\Businesslayer.pdb

@@ -1,0 +1,10 @@
+E:\workarea\syntaxfattie\syntaxfattie\Datalayer\bin\Debug\netcoreapp3.1\Datalayer.deps.json
+E:\workarea\syntaxfattie\syntaxfattie\Datalayer\bin\Debug\netcoreapp3.1\Datalayer.dll
+E:\workarea\syntaxfattie\syntaxfattie\Datalayer\bin\Debug\netcoreapp3.1\Datalayer.pdb
+E:\workarea\syntaxfattie\syntaxfattie\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\workarea\syntaxfattie\syntaxfattie\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.AssemblyInfoInputs.cache
+E:\workarea\syntaxfattie\syntaxfattie\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.AssemblyInfo.cs
+E:\workarea\syntaxfattie\syntaxfattie\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.csproj.CoreCompileInputs.cache
+E:\workarea\syntaxfattie\syntaxfattie\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.dll
+E:\workarea\syntaxfattie\syntaxfattie\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.pdb
+E:\workarea\syntaxfattie\syntaxfattie\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.csproj.AssemblyReference.cache

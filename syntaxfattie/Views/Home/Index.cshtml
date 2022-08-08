@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<form>
+    <div class="row">
+        <div class="justify-content-xl-center">
+            <img src="~/Images/burgerbg.jpg" alt="Alternate Text" class="img-fluid d-flex justify-content-center" style="height:100vh" />
+        </div>
+        @using (Html.BeginForm("OrderManagement", "Inventory"))
+        {
+            <div class="divOrderNow">
+                <button type="button" class="btn-lg bg-danger btn-outline-light p-md-2 w-75">Order Now!</button>
+            </div>
+        }
+        <div class="col-md-4">
+            <h1>Order for Walk-in or Pickup</h1>
+        </div>
+    </div>
+</form>
